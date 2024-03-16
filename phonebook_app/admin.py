@@ -85,7 +85,7 @@ class AddressAdmin(admin.ModelAdmin):
 
     list_display_links = ('id', 'country', 'city')
     list_filter = ('is_active', 'created_date', 'updated_date')
-    search_fields = ('id', 'title', 'description')
+    search_fields = ('title', 'description')
     # Order by primary key
     ordering = ('pk',)
 
@@ -112,7 +112,7 @@ class PersonAdmin(admin.ModelAdmin):
 
     list_display_links = ('id', 'first_name', 'last_name')
     list_filter = ('is_active', 'created_date', 'updated_date')
-    search_fields = ('id', 'title', 'description')
+    search_fields = ('title', 'description')
     # Order by primary key
     ordering = ('pk',)
 
