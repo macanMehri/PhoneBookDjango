@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class PhonebookConfig(AppConfig):
+class PhonebookAppConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'phonebook'
+    name = 'phonebook_app'
